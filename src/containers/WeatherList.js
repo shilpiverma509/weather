@@ -34,5 +34,3 @@ const mapStateToProps = ({ weather }) => {
   return { weather };
 };
 export default connect(mapStateToProps)(WeatherList);
-
-//  <script src="https://maps.googleapis.com/maps/api/js"></script>
